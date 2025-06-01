@@ -57,19 +57,10 @@ Een **SAP CAP + Fiori Elements** applicatie die data ophaalt uit een iFlow API v
 
 | Bestand                         | Doel                                 |
 |---------------------------------|--------------------------------------|
-| `srv/external-api-service.js`  | Custom handler met API-call          |
-| `srv/external-api-service.cds` | CAP service-definitie                |
+| `srv/external-service.js`  | Custom handler met API-call          |
+| `srv/external-service.cds` | CAP service-definitie                |
 | `db/data-model.cds`            | Definitie van de entiteit            |
-| `app/iflow-ui/`                | Fiori frontend-app                   |
 | `.env`                         | Configuratie voor API-authenticatie |
-
----
-
-## 🚫 Beperkingen
-
-- Alleen **READ-functionaliteit** (geen create/update/delete)
-- Geen Launchpad-integratie (standalone AppRouter)
-- Enkel getest **lokaal of op BTP Trial**
 
 ---
 
